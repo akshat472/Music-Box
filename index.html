@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Music Box</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <ul class="navbar">
+      <a href="index.html">Home</a>
+      <a href="">Library</a>
+      <a href="about.html">About Us</a>
+    </ul>
+    <h1 id="title">Music🥁Box</h1>
+  <div class="set">
+    <button class="w drum">w</button>
+    <button class="a drum">a</button>
+    <button class="s drum">s</button>
+    <button class="d drum">d</button>
+    <button class="j drum">j</button>
+    <button class="k drum">k</button>
+    <button class="l drum">l</button>
+  </div>
+  <div class="left">
+  <div id="startButton" class="button">
+    Start
+  </div>
+  <h2>Preview</h2>
+  <video id="preview" width="160" height="120" autoplay muted></video>
+</div>
+<div class="right">
+  <div id="stopButton" class="button">
+    Stop
+  </div>
+  <h2>Recording</h2>
+  <video id="recording" width="160" height="120" controls></video>
+  <a id="downloadButton" class="button">Download</a>
+</div>
+<div class="bottom">
+  <pre id="log"></pre>
+</div>
+      <div class="footer">
+        <p>©️AkshatSaxena</p>
+      </div>
+  </body>
+  <script src="index.js" charset="utf-8"></script>
+</html>
