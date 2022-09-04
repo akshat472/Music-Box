@@ -1,0 +1,1 @@
+Music Box is an online entertainment platform to play and record musical intruments. Unlike applications like tiktok, this web app allows its users to create music of their own and record it along with their faces and voice.
